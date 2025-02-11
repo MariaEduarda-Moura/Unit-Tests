@@ -10,7 +10,7 @@ Versão do python utilizado - 3.13.2
 ### Baixar e instalar o python: 
 Baixar o python pelo site https://www.python.org/ ou baixar pela Microsoft Store.
 
-Logo após é necessário aplicar o seguinte códiigo no terminal:
+Logo após é necessário aplicar o seguinte código no terminal para fazer a instalação: 
 pip install pytest
 
 ### Implementar as funcionalidades da calculadora
