@@ -60,6 +60,6 @@ Posteriormente foi notado que, se o arquivo __test_calculadora.py__  for deixado
 ## Referências
 Documentação oficial do pytest - [Get Started](https://docs.pytest.org/en/stable/getting-started.html)
 
-https://www.youtube.com/watch?v=H2jDPK3HVzw&t=181s
+Tutorial no YouTube: [TESTES unitários com pytest em Python | PARTE 1](https://www.youtube.com/watch?v=H2jDPK3HVzw&t=181s)
 
-https://www.youtube.com/watch?v=uVM9vPu2z0g
+Tutorial no YouTube: [Testes automatizados com Pytest - O guia introdutório | Python | PIP](https://www.youtube.com/watch?v=uVM9vPu2z0g)
