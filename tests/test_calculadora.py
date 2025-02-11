@@ -28,8 +28,20 @@ def teste_Dividir_inteiro_para_dar_certo():
 def teste_Dividir_inteiro_para_dar_errado():
     assert Divisao.divisão(10,5) == 7 #2
 
+def teste_Dividir_inteiro_para_dar_errado_2():
+    assert Divisao.divisão(10,0) == 7 #não pode
+
 def teste_Dividir_decimal_para_dar_certo():
     assert Divisao.divisão(12,5) == 2.4
 
 def teste_Dividir_decimal_para_dar_errado():
     assert Divisao.divisão(49,4) == 13 #12,25
+
+def teste_Exponencial_para_dar_certo():
+    assert Elevado.elevado(2,3) == 8
+
+def teste_Exponencial_para_dar_errado_2():
+    assert Elevado.elevado(2,0) == 0 #1
+
+def teste_Exponencial_para_dar_errado_3():
+    assert Elevado.elevado(2,-1) == 0 #0,5
