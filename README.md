@@ -4,9 +4,9 @@ Esse projeto consiste na implementação em Python de uma calculadora simples, c
 
 Versão do python utilizado - 3.13.2
 
-##Percurso do trabalho
+## Percurso do trabalho
 
-###instalar o python: 
+### instalar o python: 
 pip install pytest
 
 Testes Implementados
