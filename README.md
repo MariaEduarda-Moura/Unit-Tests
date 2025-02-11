@@ -11,7 +11,7 @@ Versão do python utilizado - 3.13.2
 pip install pytest
 
 ### Implementar as funcionalidades da calculadora
-
+As funcionalidades foram implementadas de forma simples, pois o foco está no aprendizado da ferramenta pytest.
 
 ### Implementar os testes para as classes
 Testes Implementados
@@ -39,4 +39,13 @@ Teste de exponenciação correta (ex.: 2^3 = 8).
 Teste com erro intencional para ilustrar falha.
 ### Executar os testes
 Os testes unitários foram escritos usando pytest. Para executá-los, utilize o comando:
+pytest 
+
+ou
+
 pytest --disable-warnings
+
+### Considerações
+Num primeiro momento a calculadora foi feita tendo a possibilidade de selecionar a operação desejada e declarar os valores por input, porém o pytest deu um erro os inputs e foi necessário retirar essa parte do código.
+
+
