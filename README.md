@@ -50,4 +50,4 @@ __pytest__ ou __pytest --disable-warnings__
 ### Considerações
 Num primeiro momento a calculadora foi feita tendo a possibilidade de selecionar a operação desejada e declarar os valores por input, porém o pytest deu um erro os inputs e foi necessário retirar essa parte do código.
 
-
+Posteriormente foi notado que se deixar o arquivo __test_calculadora.py__ fora da pasta teste não haverá problemas nos comandos de execução de teste, porém se o arquivo estiver dentro da pasta __tests__ é necessário colocar um inicializador dentro da pasta, sendo o arquivo "__unit__.py""
