@@ -58,7 +58,7 @@ Num primeiro momento a calculadora foi imlementada tendo interatividade, permiti
 Posteriormente foi notado que, se o arquivo __test_calculadora.py__  for deixado fora da pasta testes, os comandos de execução funcionam sem problemas. Porém se o arquivo estiver dentro da pasta __tests__ , será necessário adicionar um inicializador na pasta, criando o arquivo "_._unit__.py"(Tire o ponto depois do primeiro underline).
 
 ## Referências
-Documentação oficial do pytest - [Get Started] {https://docs.pytest.org/en/stable/getting-started.html)
+Documentação oficial do pytest - [Get Started]{https://docs.pytest.org/en/stable/getting-started.html)
 
 https://www.youtube.com/watch?v=H2jDPK3HVzw&t=181s
 
