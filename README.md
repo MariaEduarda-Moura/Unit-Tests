@@ -1,7 +1,7 @@
 # Unit-Tests
 Trabalho feito para a disciplina de engenharia de software 1 - Testes de Unidade (Unit Tests).
 
-Esse projeto consiste na implementação em Python de uma calculadora simples, com as funcionalidades de soma, subtração, multiplicação, divisão e exponenciação. Foram elaborados testes unitários automatizados com o pytest para garantir o funcionamento das funções.
+Esse projeto consiste na implementação de uma calculadora simples em Python com as funcionalidades de soma, subtração, multiplicação, divisão e exponenciação. Foram elaborados testes unitários automatizados com o pytest para garantir o funcionamento das funções.
 
 Versão do python utilizado - 3.13.2
 
@@ -9,6 +9,8 @@ Versão do python utilizado - 3.13.2
 
 ### Baixar e instalar o python: 
 Baixar o python pelo site https://www.python.org/ ou baixar pela Microsoft Store.
+
+Durante a instalação, certifique-se de marcar a opção "Add Python to PATH".
 
 Logo após é necessário aplicar o seguinte código no terminal para fazer a instalação: 
 pip install pytest
@@ -48,9 +50,16 @@ Teste de exponenciação com erro intencional para ilustrar falha: 2 ^ (-1) = 0
 
 ### Executar os testes
 Os testes unitários foram escritos usando pytest. Para executá-los, utilize o comando:
-__pytest__ ou __pytest --disable-warnings__
+__pytest__ ou __pytest --disable-warnings__ (Desativa os avisos)
 
 ### Considerações
-Num primeiro momento a calculadora foi feita tendo a possibilidade de selecionar a operação desejada e declarar os valores por input, porém o pytest deu um erro com os inputs e foi necessário retirar essa parte do código.
+Num primeiro momento a calculadora foi feita tendo interatividade com o usuário (para declarar os valores por input()), mas isso foi removido porque pytest não suporta interações durante os testes.
 
 Posteriormente foi notado que se deixar o arquivo __test_calculadora.py__ fora da pasta teste não haverá problemas nos comandos de execução de teste, porém se o arquivo estiver dentro da pasta __tests__ é necessário colocar um inicializador dentro da pasta, sendo o arquivo "_._unit__.py"(Tire o ponto depois do primeiro underline) esse inicializador.
+
+## Referências
+https://docs.pytest.org/en/stable/getting-started.html
+
+https://www.youtube.com/watch?v=H2jDPK3HVzw&t=181s
+
+https://www.youtube.com/watch?v=uVM9vPu2z0g
