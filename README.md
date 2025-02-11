@@ -1,7 +1,7 @@
 # Unit-Tests
 Trabalho feito para a disciplina de engenharia de software 1 - Testes de Unidade (Unit Tests).
 
-Esse projeto consiste na implementação em Python de uma calculadora simples, com as funcionalidades de soma, subtração, multiplicação, divisão e exponenciação. Foram elaborados testes unitários automatizados com o pytest para garantir o funionamento das funções.
+Esse projeto consiste na implementação em Python de uma calculadora simples, com as funcionalidades de soma, subtração, multiplicação, divisão e exponenciação. Foram elaborados testes unitários automatizados com o pytest para garantir o funcionamento das funções.
 
 Versão do python utilizado - 3.13.2
 
@@ -10,6 +10,10 @@ Versão do python utilizado - 3.13.2
 ### instalar o python: 
 pip install pytest
 
+### Implementar as funcionalidades da calculadora
+
+
+### Implementar os testes para as classes
 Testes Implementados
 Os seguintes cenários foram testados:
 
@@ -33,5 +37,6 @@ Exponenciação
 
 Teste de exponenciação correta (ex.: 2^3 = 8).
 Teste com erro intencional para ilustrar falha.
+### Executar os testes
 Os testes unitários foram escritos usando pytest. Para executá-los, utilize o comando:
 pytest --disable-warnings
